@@ -23,12 +23,12 @@ public class QueueTest {
     @Test
     public void testDequeue() {
         Queue<String> queue = new Queue<>();
-        queue.enqueue("Hello");
-        queue.enqueue("World");
+        queue.enqueue("1");
+        queue.enqueue("2");
 
-        assertEquals("Hello", queue.dequeue());
+        assertEquals("1", queue.dequeue());
         assertFalse(queue.isEmpty());
-        assertEquals("World", queue.dequeue());
+        assertEquals("2", queue.dequeue());
         assertTrue(queue.isEmpty());
     }
 

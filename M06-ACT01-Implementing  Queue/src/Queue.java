@@ -2,6 +2,7 @@ public class Queue<T> {
     private Node<T> head;
     private Node<T> tail;
 
+
     private static class Node<T> {
         private T data;
         private Node<T> next;
