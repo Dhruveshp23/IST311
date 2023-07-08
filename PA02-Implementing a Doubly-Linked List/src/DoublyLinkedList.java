@@ -26,6 +26,10 @@ public class DoublyLinkedList<T> {
         size = 0;
     }
 
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
     public Node<T> append(T data) {
         Node<T> newNode = new Node<>(data);
         if (head == null) {

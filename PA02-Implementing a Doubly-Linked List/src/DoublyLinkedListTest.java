@@ -4,6 +4,15 @@ import org.junit.Test;
 public class DoublyLinkedListTest {
 
     @Test
+    public void testEmptyConstructor() {
+        DoublyLinkedList<String> list = new DoublyLinkedList<>();
+
+        assertTrue(list.isEmpty());
+        assertEquals(0, list.size());
+        assertEquals("NULL", list.toString());
+    }
+
+    @Test
     public void testAppend() {
         DoublyLinkedList<Integer> list = new DoublyLinkedList<>();
         list.append(1);
