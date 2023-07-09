@@ -51,7 +51,6 @@ public class DoublyLinkedList<T> {
 
     /**
      * Checks if the linked list is empty.
-     *
      * @return true if the linked list is empty, false otherwise
      */
     public boolean isEmpty() {
