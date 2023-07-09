@@ -78,7 +78,6 @@ public class DoublyLinkedList<T> {
 
     /**
      * Inserts a new node with the given data at the specified location in the linked list.
-     *
      * @param location the location at which to insert the new node
      * @param data     the data to be inserted
      * @return the newly created node
