@@ -174,7 +174,6 @@ public class DoublyLinkedList<T> {
 
     /**
      * Returns a string representation of the linked list.
-     *
      * @return a string representation of the linked list
      */
     @Override
