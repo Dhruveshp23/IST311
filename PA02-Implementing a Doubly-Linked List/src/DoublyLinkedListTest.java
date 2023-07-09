@@ -18,6 +18,7 @@ public class DoublyLinkedListTest {
         assertEquals("NULL", list.toString());
     }
 
+
     /**
      * Tests the append method of DoublyLinkedList.
      */
