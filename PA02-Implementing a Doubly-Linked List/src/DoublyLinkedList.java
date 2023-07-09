@@ -237,7 +237,6 @@ public class DoublyLinkedList<T> {
     /**
      * Partitions the linked list by moving nodes with data greater than or equal to the given data
      * to a new linked list and removing them from the original list.
-     *
      * @param data the data used for partitioning
      * @return a new linked list containing the partitioned nodes
      */
