@@ -117,7 +117,6 @@ public class DoublyLinkedList<T> {
 
     /**
      * Deletes the node at the specified location in the linked list.
-     *
      * @param location the location of the node to be deleted
      * @return the deleted node
      * @throws IllegalArgumentException if the location is invalid
