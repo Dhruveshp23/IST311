@@ -156,7 +156,6 @@ public class DoublyLinkedList<T> {
 
     /**
      * Returns the index of the first occurrence of the specified data in the linked list.
-     *
      * @param data the data to search for
      * @return the index of the first occurrence of the data, or -1 if not found
      */
