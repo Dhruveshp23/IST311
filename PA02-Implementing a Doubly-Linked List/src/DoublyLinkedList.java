@@ -59,7 +59,6 @@ public class DoublyLinkedList<T> {
 
     /**
      * Appends a new node with the given data to the end of the linked list.
-     *
      * @param data the data to be appended
      * @return the newly created node
      */
