@@ -190,7 +190,6 @@ public class DoublyLinkedList<T> {
 
     /**
      * Shuffles the linked list by swapping adjacent nodes.
-     *
      * @return the head node of the shuffled linked list
      */
     public Node<T> shuffle() {
