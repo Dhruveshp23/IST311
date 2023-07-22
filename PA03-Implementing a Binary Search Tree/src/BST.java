@@ -58,7 +58,6 @@ public class BST {
     public void delete(int data) {
         root = deleteRecursive(root, data);
     }
-
     private Node deleteRecursive(Node current, int data) {
         if (current == null) {
             return null;
