@@ -62,6 +62,7 @@ public class BST {
         if (current == null) {
             return null;
         }
+
         if (data == current.data) {
             // Case 1: Node to be deleted has no children or only one child
             if (current.left == null) {
