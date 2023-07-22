@@ -82,7 +82,6 @@ public class BST {
 
         return current;
     }
-
     private int findMinValue(Node node) {
         int minValue = node.data;
         while (node.left != null) {
