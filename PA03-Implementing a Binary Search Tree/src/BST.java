@@ -97,7 +97,6 @@ public class BST {
         inOrderTraversal(root, values);
         return String.join(", ", values.stream().map(String::valueOf).toArray(String[]::new));
     }
-
     private void inOrderTraversal(Node node, List<Integer> values) {
         if (node != null) {
             inOrderTraversal(node.left, values);
