@@ -23,7 +23,6 @@ public class BST {
     public void insert(int data) {
         root = insertRecursive(root, data);
     }
-
     private Node insertRecursive(Node current, int data) {
         if (current == null) {
             return new Node(data);
