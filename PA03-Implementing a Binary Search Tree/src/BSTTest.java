@@ -118,7 +118,6 @@ class BSTTest {
         String expectedRebalanced = "25, 50, 100, 125, 150, 180";
         Assertions.assertEquals(expectedRebalanced, rebalancedBST.toString());
     }
-
     @Test
     void testPartition() {
         BST bst = new BST();
