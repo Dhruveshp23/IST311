@@ -15,7 +15,6 @@ class BSTTest {
         Assertions.assertNull(bst.root);
     }
 
-
     @Test
     void testInsert() {
         BST bst = new BST();
@@ -139,6 +138,6 @@ class BSTTest {
         expectedPartitioned = Arrays.asList(150, 180);
         Assertions.assertEquals(expectedPartitioned, partitionedValues);
     }
-   
+
 }
 
